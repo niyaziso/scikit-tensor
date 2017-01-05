@@ -76,7 +76,7 @@ def als(X, rank, **kwargs):
     -------
     P : ktensor
         Rank ``rank`` factorization of X. ``P.U[i]`` corresponds to the factor
-        matrix for the i-th mode. ``P.lambda[i]`` corresponds to the weight
+        matrix for the i-th mode. ``P.lmbda[i]`` corresponds to the weight
         of the i-th mode.
     fit : float
         Fit of the factorization compared to ``X``
